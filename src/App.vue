@@ -31,7 +31,7 @@ export default {
     // promises
 
       async fetchCars(){
-          const res = await fetch('http://localhost:8000/api')
+          const res = await fetch('https://evening-beach-39077.herokuapp.com/api')
           const data = await res.json()
           console.log( data )
           return data
